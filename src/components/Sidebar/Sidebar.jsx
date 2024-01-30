@@ -20,7 +20,7 @@ const Sidebar = () => {
 		>
 			<Flex direction={"column"} gap={10} w='full' height={"full"}>
 				<Link to={"/"} as={RouterLink} pl={2} display={{ base: "none", md: "block" }} cursor='pointer'>
-					<Image src='/Public/FUZZCASTLOGO.png' h={"5"} alt='Fuzzcast logo' />
+					<Image src='/Public/FUZZCASTLOGO.png' h={"10"} alt='Fuzzcast logo' />
 				</Link>
 				<Link
 					to={"/"}
@@ -34,7 +34,7 @@ const Sidebar = () => {
 					w={10}
 					cursor='pointer'
 				>
-					<Image src='/Public/FUZZCASTLOGO.png' h={"2"} alt='Fuzzcast logo' />
+					<Image src='/Public/FUZZCASTLOGO.png' h={"5"} alt='Fuzzcast logo' />
 				</Link>
 				<Flex direction={"column"} gap={5} cursor={"pointer"}>
 					<SidebarItems />
